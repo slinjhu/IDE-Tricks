@@ -9,5 +9,14 @@ code {
   background-color: PaleTurquoise;
   border: 1px solid Teal;
   border-radius: 5px;
-  padding: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+h2 {
+  color: Maroon;
+}
+
+h3 {
+  color: Sienna;
 }
