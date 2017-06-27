@@ -1,0 +1,6 @@
+#+TITLE: IDE Tricks
+#+AUTHOR: Sen Lin
+
+* VS Code
+
+* IntelliJ IDEA
