@@ -1,6 +1,11 @@
 #+TITLE: IDE Tricks
 #+AUTHOR: Sen Lin
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
 
 * VS Code
+** File
+- Open file by filename: ~Command + P~
+** Formatting code
+- Auto indent lines: select the lines of code, press ~F1~, and then type ~Beaufity selection~
 
 * IntelliJ IDEA
