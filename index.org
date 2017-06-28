@@ -16,3 +16,7 @@
 - Find all usages of a variable: ~Shift + F12~
 - Rename a variable: ~F2~
 * IntelliJ IDEA
+* Git
+** Commits
+- Undo last commit: ~git reset --hard HEAD~1~
+- Empty commit: ~git commit --allow-empty -m “Empty commit”~
