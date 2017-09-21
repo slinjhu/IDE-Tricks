@@ -20,5 +20,8 @@
 ** Commits
 - Undo last commit: ~git reset --hard HEAD~1~
 - Empty commit: ~git commit --allow-empty -m “Empty commit”~
+** Transfer commits to another repo
+- Generate patch file of the last commit: ~git diff HEAD~1 HEAD > filename.patch~
+- Applying the patch in another repo: ~git apply filename.patch~
 * Video and audio
 - Extract audio from mp4 files: ~for vid in *.mp4; do ffmpeg -i "$vid" -vn -acodec libmp3lame "${vid%.mp4}.mp3"; done~
