@@ -23,5 +23,18 @@
 ** Transfer commits to another repo
 - Generate patch file of the last commit: ~git diff HEAD~1 HEAD > filename.patch~
 - Applying the patch in another repo: ~git apply filename.patch~
+** Clean
+- Remove everything except for these already in git (f: force removing; d: removing untracked directories in addition to untracked files; x: removing ignored files also): ~git clean -xfd~
+- Remove ignored files while keeping just added (untracked) files: ~git clean -Xfd~ 
 * Video and audio
 - Extract audio from mp4 files: ~for vid in *.mp4; do ffmpeg -i "$vid" -vn -acodec libmp3lame "${vid%.mp4}.mp3"; done~
+
+* Bash
+** For each element in array
+#+BEGIN_SRC bash
+ids=(1111 2222 3333)
+for id in "${ids[@]}"
+do
+  echo $id
+done
+#+END_SRC

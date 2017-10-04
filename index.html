@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-09-20 Wed 19:26 -->
+<!-- 2017-10-04 Wed 15:24 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>IDE Tricks</title>
@@ -234,47 +234,53 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org60a2621">1. VS Code</a>
+<li><a href="#orgc8d3b0b">1. VS Code</a>
 <ul>
-<li><a href="#org7266122">1.1. File</a></li>
-<li><a href="#org2aab893">1.2. Formatting code</a></li>
-<li><a href="#org87e882b">1.3. Side by side editing</a></li>
-<li><a href="#org3132287">1.4. Editing</a></li>
+<li><a href="#org0233677">1.1. File</a></li>
+<li><a href="#org8d6f70b">1.2. Formatting code</a></li>
+<li><a href="#org7e04da7">1.3. Side by side editing</a></li>
+<li><a href="#org6ddb3d0">1.4. Editing</a></li>
 </ul>
 </li>
-<li><a href="#org539ca8c">2. IntelliJ IDEA</a></li>
-<li><a href="#org7366e3c">3. Git</a>
+<li><a href="#org05174d6">2. IntelliJ IDEA</a></li>
+<li><a href="#org90080a7">3. Git</a>
 <ul>
-<li><a href="#orgdbc140c">3.1. Commits</a></li>
-<li><a href="#orge4c4ad3">3.2. Transfer commits to another repo</a></li>
+<li><a href="#org11f3cfa">3.1. Commits</a></li>
+<li><a href="#org4d90a58">3.2. Transfer commits to another repo</a></li>
+<li><a href="#orgddfaad5">3.3. Clean</a></li>
 </ul>
 </li>
-<li><a href="#org8f7fb69">4. Video and audio</a></li>
+<li><a href="#orgcd6ff0f">4. Video and audio</a></li>
+<li><a href="#org462b2a2">5. Bash</a>
+<ul>
+<li><a href="#org38de2f1">5.1. For each element in array</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org60a2621" class="outline-2">
-<h2 id="org60a2621"><span class="section-number-2">1</span> VS Code</h2>
+<div id="outline-container-orgc8d3b0b" class="outline-2">
+<h2 id="orgc8d3b0b"><span class="section-number-2">1</span> VS Code</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-org7266122" class="outline-3">
-<h3 id="org7266122"><span class="section-number-3">1.1</span> File</h3>
+</div><div id="outline-container-org0233677" class="outline-3">
+<h3 id="org0233677"><span class="section-number-3">1.1</span> File</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>Open file by filename: <code>Command + P</code></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2aab893" class="outline-3">
-<h3 id="org2aab893"><span class="section-number-3">1.2</span> Formatting code</h3>
+<div id="outline-container-org8d6f70b" class="outline-3">
+<h3 id="org8d6f70b"><span class="section-number-3">1.2</span> Formatting code</h3>
 <div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
 <li>Auto indent lines: select the lines of code, press <code>F1</code>, and then type <code>Beaufity selection</code></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org87e882b" class="outline-3">
-<h3 id="org87e882b"><span class="section-number-3">1.3</span> Side by side editing</h3>
+<div id="outline-container-org7e04da7" class="outline-3">
+<h3 id="org7e04da7"><span class="section-number-3">1.3</span> Side by side editing</h3>
 <div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
 <li>Open file in a new side window: hold <code>Command</code> and click the file name in sidebar.</li>
@@ -282,8 +288,8 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-org3132287" class="outline-3">
-<h3 id="org3132287"><span class="section-number-3">1.4</span> Editing</h3>
+<div id="outline-container-org6ddb3d0" class="outline-3">
+<h3 id="org6ddb3d0"><span class="section-number-3">1.4</span> Editing</h3>
 <div class="outline-text-3" id="text-1-4">
 <ul class="org-ul">
 <li>List and jump to a variable: <code>Command + Shift + O</code></li>
@@ -294,14 +300,14 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-org539ca8c" class="outline-2">
-<h2 id="org539ca8c"><span class="section-number-2">2</span> IntelliJ IDEA</h2>
+<div id="outline-container-org05174d6" class="outline-2">
+<h2 id="org05174d6"><span class="section-number-2">2</span> IntelliJ IDEA</h2>
 </div>
-<div id="outline-container-org7366e3c" class="outline-2">
-<h2 id="org7366e3c"><span class="section-number-2">3</span> Git</h2>
+<div id="outline-container-org90080a7" class="outline-2">
+<h2 id="org90080a7"><span class="section-number-2">3</span> Git</h2>
 <div class="outline-text-2" id="text-3">
-</div><div id="outline-container-orgdbc140c" class="outline-3">
-<h3 id="orgdbc140c"><span class="section-number-3">3.1</span> Commits</h3>
+</div><div id="outline-container-org11f3cfa" class="outline-3">
+<h3 id="org11f3cfa"><span class="section-number-3">3.1</span> Commits</h3>
 <div class="outline-text-3" id="text-3-1">
 <ul class="org-ul">
 <li>Undo last commit: <code>git reset --hard HEAD~1</code></li>
@@ -309,8 +315,8 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-orge4c4ad3" class="outline-3">
-<h3 id="orge4c4ad3"><span class="section-number-3">3.2</span> Transfer commits to another repo</h3>
+<div id="outline-container-org4d90a58" class="outline-3">
+<h3 id="org4d90a58"><span class="section-number-3">3.2</span> Transfer commits to another repo</h3>
 <div class="outline-text-3" id="text-3-2">
 <ul class="org-ul">
 <li>Generate patch file of the last commit: <code>git diff HEAD~1 HEAD &gt; filename.patch</code></li>
@@ -318,19 +324,46 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
+<div id="outline-container-orgddfaad5" class="outline-3">
+<h3 id="orgddfaad5"><span class="section-number-3">3.3</span> Clean</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>Remove everything except for these already in git (f: force removing; d: removing untracked directories in addition to untracked files; x: removing ignored files also): <code>git clean -xfd</code></li>
+<li>Remove ignored files while keeping just added (untracked) files: <code>git clean -Xfd</code></li>
+</ul>
 </div>
-<div id="outline-container-org8f7fb69" class="outline-2">
-<h2 id="org8f7fb69"><span class="section-number-2">4</span> Video and audio</h2>
+</div>
+</div>
+<div id="outline-container-orgcd6ff0f" class="outline-2">
+<h2 id="orgcd6ff0f"><span class="section-number-2">4</span> Video and audio</h2>
 <div class="outline-text-2" id="text-4">
 <ul class="org-ul">
 <li>Extract audio from mp4 files: <code>for vid in *.mp4; do ffmpeg -i "$vid" -vn -acodec libmp3lame "${vid%.mp4}.mp3"; done</code></li>
 </ul>
 </div>
 </div>
+
+<div id="outline-container-org462b2a2" class="outline-2">
+<h2 id="org462b2a2"><span class="section-number-2">5</span> Bash</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-org38de2f1" class="outline-3">
+<h3 id="org38de2f1"><span class="section-number-3">5.1</span> For each element in array</h3>
+<div class="outline-text-3" id="text-5-1">
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #7590db;">ids</span>=<span style="color: #4f97d7;">(</span><span style="color: #a45bad;">1111</span> <span style="color: #a45bad;">2222</span> <span style="color: #a45bad;">3333</span><span style="color: #4f97d7;">)</span>
+<span style="color: #4f97d7; font-weight: bold;">for</span> id<span style="color: #4f97d7; font-weight: bold;"> in</span> <span style="color: #2d9574;">"${ids[@]}"</span>
+<span style="color: #4f97d7; font-weight: bold;">do</span>
+  <span style="color: #4f97d7;">echo</span> $<span style="color: #7590db;">id</span>
+<span style="color: #4f97d7; font-weight: bold;">done</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Sen Lin</p>
-<p class="date">Created: 2017-09-20 Wed 19:26</p>
+<p class="date">Created: 2017-10-04 Wed 15:24</p>
 <p class="validation"></p>
 </div>
 </body>
